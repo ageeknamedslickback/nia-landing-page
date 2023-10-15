@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:display=swap');
+
+:root {
+    --yellow-text-color: #FFA901;
+    --yellow-background-color: #FFFF01;
+    --global-margin-left: 50px;
+    --global-margin-right: 50px;
+    --global-margin-top: 10px;
+    --global-margin-bottom: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+button {
+    height: 50px;
+    width: 234px;
+    margin: 25px 0px 0px 800px;
+    background-color: var(--yellow-text-color);
+    border: none;
+    border-radius: 10px;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.logo {
+    margin: var(--global-margin-top)  var(--global-margin-right) var(--global-margin-bottom) var(--global-margin-left);
+}
+
+.call-to-action{
+    padding: 200px 0px 300px 0px;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    height: auto;
+    width: auto;
+}
+
+.tagline span {
+    font-weight: 900;
+}
+
+.coloured-emphasis {
+    color: var(--yellow-text-color);
+}
+
+.backgrounded-emphasis {
+    background-color: var(--yellow-background-color);
+}
+
+.italicized-emphasis {
+    font-style: italic;
+}
+
+.sub-tagline {
+    margin: 20px 0px 0px 0px;
+    font-size: 1.2rem;
+}
+
+.footer-text {
+    text-align: center;
+}
